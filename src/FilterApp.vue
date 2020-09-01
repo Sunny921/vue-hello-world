@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    <MyComponent1></MyComponent1>
+    <TextFilterTest></TextFilterTest>
   </div>
 </template>
 
 <script>
-    import MyComponent1 from './components/mixins/MyComponent1'
-    import MyComponent2 from './components/mixins/MyComponent1'
+    import TextFilterTest from './components/filter/TextFilterTest'
 
 export default {
   name: 'App',
   components: {
-      MyComponent1,
-      MyComponent2,
+      TextFilterTest,
   }
 }
 </script>
